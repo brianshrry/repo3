@@ -11,7 +11,7 @@ name: Checkout
         with:
           ref: main
 name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.3.0 # v0.9.0
+        uses: zaproxy/action-baseline@v0.9.0 # v0.9.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://juice-shop.herokuapp.com/#/'
