@@ -7,7 +7,7 @@ jobs:
     name: Scan Juice Shop preview instance on Heroku
     steps:
 name: Checkout
-        uses: actions/checkout@v3 #v4.0.0
+        uses: actions/checkout@v4 #v4.0.0
         with:
           ref: main
 name: ZAP Scan
